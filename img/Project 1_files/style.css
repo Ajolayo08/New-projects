@@ -146,57 +146,5 @@ p::after{
     content: "...";
 }
 
-/* resposive styles */
-
-@media screen and (max-width: 1200px){
-
-    .banner .welcome h2{
-        font-size: 40px;
-    }
-    nav li{
-        font-size: 15px;
-    }
-}
-@media screen and (max-width: 810px){
-
-    .banner .welcome{
-        position: relative;
-        text-align: center;
-        padding: 1px;
-    }
-    .banner .welcome br{
-        display: none;
-    }
-    .banner .welcome h2{
-        font-size: 25px;
-    }
-    .banner .welcome. span{
-        font-size: 1em;
-    }
-    .images li{
-        width: 100%;
-        margin: 5px auto;
-        display: block;
-    }
-}
-@media screen and (max-width: 450px){
-nav li{
-    font-size: 20px;
-    display: block;
-    width: 100%;
-    margin: 12px 0;
-    text-align: center;
-    padding: 0%;
-    }
-    header{
-        position: relative;
-    }
-    nav{
-        top: 0;
-    }
-}
-
-
-
 
 
